@@ -6,17 +6,13 @@ console.log(`INPUT: array: ${array}`);
 
 const insertionSort = (arr) => {
   for (let i = 1; i < arr.length; i++) {
-    if (arr[i] >= arr[i - 1]) {
-      continue;
-    }
-
-    let pos = i;
+    let pos = i - 1;
     const val = arr[i];
-    while (arr[pos - 1] > val && pos >= 0) {
-      arr[pos] = arr[pos - 1];
+    while (arr[pos] > val && pos >= 0) {
+      arr[pos + 1] = arr[pos];
       pos--;
     }
-    arr[pos] = val;
+    arr[pos + 1] = val;
   }
   return arr;
 }
