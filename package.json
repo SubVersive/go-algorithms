@@ -1,0 +1,19 @@
+{
+  "name": "go-algorithms",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:search:binary": "node ./search/binary"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SubVersive/go-algorithms.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SubVersive/go-algorithms/issues"
+  },
+  "homepage": "https://github.com/SubVersive/go-algorithms#readme"
+}
