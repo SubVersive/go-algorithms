@@ -8,7 +8,7 @@
       "type": "node",
       "request": "launch",
       "name": "Launch Program",
-      "program": "${workspaceRoot}/sorting/selection/index.js"
+      "program": "${workspaceRoot}/sorting/insertion/index.js"
     },
     {
       "type": "node",
