@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start:search:binary": "node ./search/binary"
+    "start:search:binary": "node ./search/binary",
+    "start:sorting:selection": "node ./sorting/selection"
   },
   "repository": {
     "type": "git",
