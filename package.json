@@ -6,7 +6,8 @@
   "scripts": {
     "start:search:binary": "node ./search/binary",
     "start:sorting:selection": "node ./sorting/selection",
-    "start:sorting:insertion": "node ./sorting/insertion"
+    "start:sorting:insertion": "node ./sorting/insertion",
+    "start:sorting:merge": "node ./sorting/merge"
   },
   "repository": {
     "type": "git",
